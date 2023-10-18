@@ -1,0 +1,53 @@
+body{
+background-color: rgb(212, 183, 239);
+}
+button{
+    background-color: rgb(91, 91, 244);
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border-color: azure;
+    border-radius: 5px;
+    border-width: 2px;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+     background-color: aliceblue;
+     height:10% ;
+ }
+ #container{
+    display:inline-block;
+    margin:20% ;
+    margin-top:25px ;
+    padding:30px ;
+    align-content:center ;
+    align-self: center;
+    border-radius: 5px;
+    background-color: rgb(182, 120, 241);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    line-height:40px ;
+ }
+ #fdbk{
+    height: 300px; 
+    text-align: start;
+ }
+ .input{
+    width: 90%;
+    border:1px solid #ccc ;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom:10px ;
+    line-height: normal;
+    color: #868080;
+    
+   }
+ .foot{
+    padding: 50px;
+    background-color: aliceblue;
+    display: inline-block;
+    margin-bottom: 0px;
+}

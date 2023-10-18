@@ -1,0 +1,144 @@
+*{
+    background-color: #EEF1FF;
+    
+}
+h1{
+    color:#B1B2FF;
+    display: inline-block;
+   
+}
+h2{
+    color:#B1B2FF;
+   
+    
+}
+span{
+    text-decoration: overline underline ;
+    background-color:#D2DAFF ;
+}
+div{
+    color:#B1B2FF;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+#navbar{
+    display:flex ;
+    align-content: flex-end;
+    padding:15px ;
+    margin-left:60% ;
+    text-shadow: plum  1px 0 10px;
+}
+.nvbr{
+    padding-left:25px ;
+    padding-right: 25px;
+    font-size:30px ;
+    font-weight: 200;
+    text-decoration: none;
+    color: #AAC4FF;
+    transition: 1s ;
+
+}
+
+img{
+    height:200px;
+    border-radius: 30% ;
+    position: relative;
+    transition: 0.8s;
+}
+footer{
+   text-align: center;
+    background-color: aliceblue;
+    height:10% ;
+}
+.home{
+    background-color:#D2DAFF ;
+    border-radius:20% ;
+    text-align: left;
+    display: block;
+    padding-block:10px ;
+    width:75%;
+    transition: 0.7s;
+}
+.bt{
+    color:rgb(124, 124, 239) ;
+    background-color:#D2DAFF ;
+    font-size:40px ; 
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 10%;
+    border-color:rgb(124, 124, 239) ;
+    transition:0.5s;
+}
+.but{
+    color:rgb(124, 124, 239) ;
+    background-color:#D2DAFF ;
+    font-size:40px ; 
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-flex;
+    height: 50px;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 5px;
+    border-color:rgb(124, 124, 239) ;
+    transition:0.5s;
+}
+.foot{
+    padding: 50px;
+    background-color: aliceblue;
+    display: inline-block;
+}
+#gmail{
+    height:50px ;
+    border-radius:50% ;
+    transition: 1s;
+    margin-top:200px ;
+
+
+}
+#lkdn{
+    height:50px ;
+    border-radius:50% ;
+    transition: 1s;
+    margin-top:200px ;
+ 
+}
+
+.nvbr:hover{
+    text-decoration: underline;
+    transform: rotateY(360deg);
+}
+#gmail:hover{
+
+    transform: rotateY(360deg);
+}
+#lkdn:hover{
+
+    transform: rotateY(360deg);
+}
+img:hover{
+    height: 250px;
+}
+.home:hover{
+    
+    font-size: larger;
+}
+.bt a:before{
+    background-color: aqua;
+    
+    }
+.bt a:hover::before{
+background-color: aqua;
+
+}
+#logo{
+    display: block;
+    position:absolute;
+    margin-top:200px;
+    margin-right: 0px;
+   
+}
